@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 25px;
+}
+
+h2 {
+    text-align:center;
 }
 
 #head {
@@ -10,6 +13,7 @@
     color: white;
     padding: 0.5em;
     margin: 50px;
+    border-radius: 15px;
 }
 
 .container {
@@ -30,17 +34,30 @@
     border-radius: 15px;
     font-size: 18px;
     padding: 0.5em;
+    flex-direction: column;
+    flex: 1 1 0px;
 }
 
 .section-subcontent {
     background-color: bisque;
-    font-size: 11px;
+    font-size: 14px;
     display: flex;
-
+    border-radius: 15px;
+    padding: 15px;
+    flex-direction:column;
 }
 
 .linkbox {
     display:flex;
-
+    flex-direction: column;
+    border-left: 3px solid black;
+    padding: 5px;
+    margin: 5px;
 }
+
+.link-item {
+    margin: 5px;
+}
+
+
 
