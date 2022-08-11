@@ -32,13 +32,6 @@ h4 {
     width: 70px;
 }
 
-
-/* #head-text {
-    flex-direction: column;
-    text-align: left;
-} */
-
-
 .container {
     background-color: #2b739e;
     margin: 20px;
@@ -51,7 +44,7 @@ h4 {
 
 .section-child {
     background-color:cornsilk;
-    display: flex; /*Might be able to cut this out */
+    /* display: flex; Might be able to cut this out */
     flex-wrap: nowrap;
     margin: 15px;
     border-radius: 15px;
