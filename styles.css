@@ -44,7 +44,6 @@ h4 {
 
 .section-child {
     background-color:cornsilk;
-    /* display: flex; Might be able to cut this out */
     flex-wrap: nowrap;
     margin: 15px;
     border-radius: 15px;
@@ -55,12 +54,11 @@ h4 {
 }
 
 .section-subcontent {
-    /* background-color: bisque; */
     font-size: 14px;
     display: flex;
     border-radius: 15px;
     padding: 15px;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .linkbox {
