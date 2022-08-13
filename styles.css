@@ -3,16 +3,16 @@
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
-h1 {
+#title-heading {
     font-size: 25px;
     font-weight: 600;
 }
 
-h2 {
+#site-heading {
     text-align:center;
 }
 
-h4 {
+#site-section {
     font-size: 18px;
 }
 
