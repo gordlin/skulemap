@@ -1,11 +1,15 @@
+@import url('https://rsms.me/inter/inter.css');
+
 * {
   box-sizing: border-box;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
 #title-heading {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 600;
+  padding-top: 0;
+  margin: 0 0 10px 0;
 }
 
 #site-heading {
@@ -13,23 +17,25 @@
 }
 
 #site-section {
+  display: block;
   font-size: 18px;
 }
 
 #head {
   background-color: #2b739e;
-  text-align: left;
+  text-align: center;
   color: white;
   padding: 0.2em;
   margin: -8px -8px 20px -8px;
-  display: flex;
-  justify-content: left;
+  /* display: flex; */
+  justify-content: center;
   gap: 10px;
 }
 
 #logo {
   height: auto;
   width: 70px;
+  margin-top: 10px;
 }
 
 .container {
