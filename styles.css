@@ -44,7 +44,6 @@
 
 .section-child {
   background-color: cornsilk;
-  /* min-width: 20%; */
   flex-wrap: nowrap;
   margin: 15px;
   border-radius: 15px;
